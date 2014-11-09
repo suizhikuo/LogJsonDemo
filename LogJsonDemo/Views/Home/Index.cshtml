@@ -1,14 +1,16 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "项目示例";
 }
 
 <h2>@ViewBag.Message</h2>
 <p>
-    To learn more about ASP.NET MVC visit <a href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>.
+    本项目示例:
+    log类库:debug.writline 和 trance writline 在输出面板写日志 和根据配置输出到文本文件里.
+    实例转json
 </p>
 
 <ul data-role="listview" data-inset="true">
-    <li data-role="list-divider">Navigation</li>
-    <li>@Html.ActionLink("About", "About", "Home")</li>
-    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+    <li data-role="list-divider">导航</li>
+    <li>@Html.ActionLink("关于", "About", "Home")</li>
+    <li>@Html.ActionLink("联系", "Contact", "Home")</li>
 </ul>

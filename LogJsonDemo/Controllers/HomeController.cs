@@ -10,21 +10,21 @@ namespace LogJsonDemo.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
+            ViewBag.Message = "项目示例";
 
             return View();
         }
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your app description page.";
+            ViewBag.Message = "log类库:debug.writline 和 trance writline 在输出面板写日志 和根据配置输出到文本文件里.实例转json";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "联系.";
 
             return View();
         }
