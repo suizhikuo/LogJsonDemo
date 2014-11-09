@@ -1,0 +1,6 @@
+本项目示例:
+log类库:debug.writline 和 trance writline 在输出面板写日志 和根据配置输出到文本文件里.
+实例转json
+
+
+
